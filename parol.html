@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>    
+    <div class="animate__animated animate__bounce"><h1><em>Пароль!</em></h1></div>
+    <img  src="png/book.png" id="logo" alt="Logo" height="70" width="70">
+
+    <div id="logo-info">Тимчишин Анастасія 208 група <img src="png/cat.png" id="cat" alt="cat"  height="70" width="70"></div> 
+      </div>
+    <div class="body">
+      <nav>
+        <ul>
+            <button type="button" class="button"> <a href="index.html">Кальлятор</button></a>
+            <button type="button" class="button"> <a href="parol.html">Генерування паролю</button></a>
+            <button type="button" class="button"><a href="word.html">Підрахунок голосних</a></button>
+       </ul>
+    </nav>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>#3 - Pass Generator | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Генератор паролю</h2>
+        <div class="wrapper">
+            <div class="input-box">
+                <input type="text" disabled>
+                <span class="material-symbols-rounded">copy_all</span>
+            </div>
+            <div class="pass-indicator"></div>
+            <div class="pass-length">
+                <div class="details">
+                    <label class="title">Довжина паролю</label>
+                    <span></span>
+                </div>
+                <input type="range" min="1" max="30" value="15" step="1">
+            </div>
+
+            <div class="pass-settings">
+                <label class="title">Налаштування</label>
+                <ul class="options">
+                    <li class="option">
+                        <input type="checkbox" id="lowercase" checked>
+                        <label for="lowercase">Малі літери (a-z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="uppercase">
+                        <label for="uppercase">Великі (A-Z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers">Числа (0-9)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="symbols">
+                        <label for="symbols">Символи (!-$^+)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="exc-duplicate">
+                        <label for="exc-duplicate">Повторення</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="spaces">
+                        <label for="spaces">Пропуски</label>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <button class="generate-btn">Згенерувати</button>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
